@@ -13,7 +13,7 @@ namespace AcademiaSpec.Abstracao
             string sPath = Constantes.sSCREENSHOTPATH + getTimeStamp() + ".png";
             Screenshot file = ((ITakesScreenshot)driver).GetScreenshot();
             file.SaveAsFile(sPath, ScreenshotImageFormat.Png);
-            Constantes.logImage.Add(sPath.Replace("Reports/", ""));
+            Constantes.logImage.Add(sPath.Replace("Report/", ""));
         }
 
         public static string getTimeStamp()
