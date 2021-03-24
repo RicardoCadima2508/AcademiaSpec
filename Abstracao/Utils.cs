@@ -1,4 +1,4 @@
-﻿using OpenQA.Selenium;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -13,7 +13,7 @@ namespace AcademiaSpec.Abstracao
             string sPath = Constantes.sSCREENSHOTPATH + getTimeStamp() + ".png";
             Screenshot file = ((ITakesScreenshot)driver).GetScreenshot();
             file.SaveAsFile(sPath, ScreenshotImageFormat.Png);
-            Constantes.logImage.Add(sPath);
+            Constantes.logImage.Add(sPath.Replace("Reports/", ""));
         }
 
         public static string getTimeStamp()
