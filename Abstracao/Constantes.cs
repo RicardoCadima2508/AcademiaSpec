@@ -11,7 +11,7 @@ namespace AcademiaSpec.Abstracao
         public const int iTIMEOUT = 20;
         public const string sURL = "http://automationpractice.com/index.php";
         public const string sREPORTPATH = "./Report";
-        public const string sSCREENSHOTPATH = "./Screenshots/";
+        public const string sSCREENSHOTPATH = "./Report/Screenshots/";
 
         public static ExtentReports _extent;
         public static ExtentTest _feature;
