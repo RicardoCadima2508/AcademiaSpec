@@ -10,7 +10,7 @@ namespace AcademiaSpec.Abstracao
         public const string sBROWSER = "Chrome";
         public const int iTIMEOUT = 20;
         public const string sURL = "http://automationpractice.com/index.php";
-        public const string sREPORTPATH = "./Report";
+        public const string sREPORTPATH = "./Report/testeresult.html";
         public const string sSCREENSHOTPATH = "./Report/Screenshots/";
 
         public static ExtentReports _extent;
